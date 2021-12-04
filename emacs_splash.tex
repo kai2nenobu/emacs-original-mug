@@ -1,0 +1,61 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0mm,paperwidth=200mm,paperheight=80mm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{jumoline}
+
+\pagestyle{empty}
+
+\begin{document}
+\fontfamily{cmss}\selectfont
+\setlength{\UnderlineDepth}{1.3pt}
+
+\hbox{\vrule width 0pt height 40mm depth 40mm% 最初に hbox の縦幅を規定
+  \hbox to 132.8mm{\hfill \parbox[c]{125mm}{%
+  %%%%%%%%%%%%%%%% 1カラム目 %%%%%%%%%%%%%%%%
+  \vspace{4mm}
+  \begin{center}
+   \includegraphics[height=29mm]{splash.pdf} \\
+   {\footnotesize
+   \color{red} Welcome to \color{blue} \Underline{GNU Emacs}
+   \color{red}, one component of the
+   \color{blue} \Underline{GNU/Linux}
+   \color{red}~operating system. \\[\baselineskip]
+   \begin{tabular}{ll}
+    \color{blue} \Underline{Emacs Tutorial}	 & \color{black} Learn basic keystroke commands\\
+    \color{blue} \Underline{Emacs Guided Tour}	 & \color{black} Overview of Emacs features at gnu.org \\
+    \color{blue} \Underline{View Emacs Manual}	 & \color{black} View the Emacs manual using Info \\
+    \color{blue} \Underline{Absence of Warranty} & \color{black} GNU Emacs comes with \textsl{ABSOLUTELY NO WARRANTY} \\
+    \color{blue} \Underline{Copying Conditions}	 & \color{black} Conditions for redistributing and changing Emacs \\
+    \color{blue} \Underline{Ordering Manuals}    & \color{black} Purchasing printed copies of manuals
+   \end{tabular} \\[0.9\baselineskip]
+   % To start...     Open a File     Open Home Directory     Customize Startup \\
+   % To quit a partially entered command, type Control-g. \\
+   \color{blue}
+   This is GNU Emacs 23.3.3 (i686-pc-linux-gnu, GTK+ Version 2.24.4) \\
+   of 2011-11-08 on pollmann \\
+
+   \color{black}
+   Copyright (C) 2011 Free Software Foundation, Inc.%
+  }%
+  \end{center}%
+  }%
+  \hfill }%
+  %%%%%%%%%%%%%%%% 1カラム目おわり %%%%%%%%%%%%%%%%
+    % \textcolor{blue}{\vrule width 0.6pt height 20mm depth 20mm}% 縦線
+    % \hbox to 66.4mm{\hfill \parbox[c]{60mm}{%
+    % %%%%%%%%%%%%%%%% 2カラム目 %%%%%%%%%%%%%%%%
+    % hoge hoge hoge hoge hoge hoge huga untara mug cup mugo hego
+    % %%%%%%%%%%%%%%%% 2カラム目 %%%%%%%%%%%%%%%%
+    % } \hfill}%
+    \vrule width 0.0pt height 40mm depth 40mm% 縦線
+    % \hbox to 66.4mm{\hfill \parbox[c]{66mm}{%
+    % \begin{center}
+    %  \includegraphics[width=65mm]{emacs_icon.pdf}
+    % \end{center}
+    % }%
+    \hfill
+    %}%
+    }%
+
+\end{document}
