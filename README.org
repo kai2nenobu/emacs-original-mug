@@ -1,0 +1,28 @@
+* Emacsのオリジナルマグカップを作る
+
+Emacsのロゴやアイコンを使ってオリジナルのマグカップを作りました。このリポジトリはマグカップデザインのソースと成果物としての画像データを含んでいます。
+
+** ファイル構成
+
+| ファイル | 説明 |
+|-----+----------|
+| [[emacs_splash.tex]] | ロゴを含むPDFを生成するtexファイル |
+| [[emacs/]] | Emacsのリポジトリから取得したアイコンやロゴの画像データ |
+| [[dist/]] | 成果物となる画像データ |
+
+** 著作権表示
+
+#+BEGIN_EXAMPLE
+Copyright (C) 2011 Tsunenobu Kai
+
+Unless specified in the file or directory, the files in this repository
+are free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. 
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+"LICENSE" file for more details.
+#+END_EXAMPLE
